@@ -5,7 +5,7 @@ import React, { useState } from 'react';
 import CommentInput from '../CommentSection/CommentInput';
 // const display = document.querySelector('.display');
 const LikeSection = props => {
-  const input = CommentInput.display;
+  // const input = CommentInput.display;
   console.log(input);
   const [likes, setLikes] = useState(props.likes);
   // console.log(likes);
@@ -19,10 +19,7 @@ const LikeSection = props => {
           <i className='far fa-heart' onClick={incLikes} />
         </div>
         <div className='like-section-wrapper'>
-          <i
-            className='far fa-comment,'
-            onClick={(input.style.display = 'block')}
-          />
+          <i className='far fa-comment,' />
         </div>
       </div>
       <p className='like-number'>{likes} likes</p>
