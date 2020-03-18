@@ -6,7 +6,7 @@ import CommentInput from '../CommentSection/CommentInput';
 // const display = document.querySelector('.display');
 const LikeSection = props => {
   // const input = CommentInput.display;
-  console.log(input);
+  // console.log(input);
   const [likes, setLikes] = useState(props.likes);
   // console.log(likes);
   function incLikes() {
